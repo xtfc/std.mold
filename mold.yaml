@@ -1,0 +1,5 @@
+
+types:
+  sh:
+    command: ["sh", "?"]
+    extensions: ["sh"]
