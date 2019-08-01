@@ -1,5 +1,28 @@
-
 types:
+  exe:
+    command: ["?"]
+    extensions: []
+
   sh:
     command: ["sh", "?"]
     extensions: ["sh"]
+
+  zsh:
+    command: ["zsh", "?"]
+    extensions: ["zsh", "sh"]
+
+  bash:
+    command: ["bash", "?"]
+    extensions: ["bash", "sh"]
+
+  python:
+    command: ["python", "?"]
+    extensions: ["py"]
+
+  python2: # boo
+    command: ["python2", "?"]
+    extensions: ["py"]
+
+  python3:
+    command: ["python3", "?"]
+    extensions: ["py"]
